@@ -1,0 +1,27 @@
+.avis {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+	background: linear-gradient(to right, #1f2749, #213763, #3b66b6);
+	padding: 2rem;
+
+	gap: 8rem;
+
+	color: #ffffff;
+
+	margin-bottom: 6rem;
+
+	&__buttons {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-items: flex-end;
+		gap: 1rem;
+
+		img:nth-child(2) {
+			margin-top: 1.5rem;
+		}
+	}
+}

@@ -1,0 +1,98 @@
+.aidebase {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	padding-inline: 256px;
+
+	img {
+		width: 100%;
+	}
+
+	&__img {
+		min-height: 100vh;
+		display: grid;
+		place-items: center;
+	}
+
+	&__nouveau {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+
+
+		&-title {
+			font-size: 32px;
+			color: #ffffff;
+			margin-bottom: 2rem;
+		}
+
+        .wrapper{
+            display: flex;
+            align-items: center;
+        }
+
+		.slider-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+
+            overflow: hidden;
+		}
+
+		&-slider {
+            display: flex;
+			width: calc(408px * 3); // width of 3 slides visible at a time
+			transition: transform 0.5s ease;
+
+			a {
+				flex: 0 0 398px; // each slide width
+				margin-right: 10px;
+				transition: transform 0.3s ease;
+			}
+		}
+
+		.slider-button {
+			cursor: pointer;
+			
+            color: white;
+			
+            border: none;
+			width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            
+            font-weight: 600;
+            font-size: 28px;
+
+            background-color: #252E53;
+
+            z-index: 1000;
+            margin-inline: 2rem;
+
+			&:disabled {
+				background-color: #ccc;
+				cursor: not-allowed;
+			}
+		}
+	}
+
+	&__screens {
+		min-height: 100vh;
+		margin-top: 4rem;
+		display: grid;
+		place-items: center;
+
+		img {
+			max-width: 100%;
+			display: none;
+		}
+
+		img.active {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HumanKey Website</title>
+		<link rel="stylesheet" href="style/style.css" />
+	</head>
+	<body>
+		<!-- Header -->
+
+		<header class="header">
+			<a href="./index.html" class="header__logo">
+				<img src="images/logo.png" alt="humankey logo" />
+			</a>
+			<nav class="header__nav">
+				<div class="header__nav-item dropdown">
+					<a href="">À Propos</a>
+					<ul class="dropdown__menu">
+						<li><a href="./entreprise/identity.html">Identité de l’entreprise</a></li>
+						<li><a href="./entreprise/hrms.html">HRMS : Vue d’ensemble</a></li>
+						<li><a href="./entreprise/assurance.html">Assurance de sécurité</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="./solutions">Solutions</a>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Support</a>
+					<ul class="dropdown__menu">
+						<li><a href="./support/assistance.html">Assistance clientèle</a></li>
+						<li><a href="./support/aide-base.html">Aide de base</a></li>
+						<li>
+							<a href="./support/portail-connaissance.html"
+								>Portail de connaissances</a
+							>
+						</li>
+						<li><a href="./support/hrms.html">HRMS : Cycle de vie</a></li>
+						<li><a href="./support/maintenance.html">Maintenance et support</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Communauté</a>
+					<ul class="dropdown__menu">
+						<li><a href="./community/synthese.html">Synthèse Communautaire</a></li>
+						<li><a href="#">Communautés Clientèles</a></li>
+						<li><a href="#">Communautés Partenaires</a></li>
+						<li><a href="#">Dernières actualités</a></li>
+						<li><a href="#">Service Client</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="./partners">Partenaires</a>
+				</div>
+			</nav>
+			<div class="header__actions">
+				<a href="./contact.html">Contact</a>
+				<button>
+					FRA
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="feather feather-chevron-down"
+					>
+						<polyline points="6 9 12 15 18 9"></polyline>
+					</svg>
+				</button>
+			</div>
+		</header>
+
+		<div class="container">
+			<section class="contact section">
+				<p class="contact__paragraph">
+					Vous êtes intéressé(e) par Human Key ou vous désirez en savoir plus ? Remplissez
+					le formulaire ou contactez-nous au 0800 901 069
+				</p>
+
+				<div class="contact__row">
+					<div class="custom-dropdown">
+						<select>
+							<option value="1">Objet *</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>
+					</div>
+				</div>
+				<div class="contact__row">
+					<div class="textarea-container">
+						<label for="customTextarea">Your Message</label>
+						<textarea id="customTextarea"></textarea>
+					</div>
+				</div>
+				<div class="contact__row">
+					<input type="text" class="custom-input" placeholder="Prénom *" />
+
+					<input type="text" class="custom-input" placeholder="Nom *" />
+				</div>
+				<div class="contact__row">
+					<div class="select-container">
+						<label for="styledSelect" class="select-label">Pays / Region</label>
+						<div class="styled-select">
+							<select id="styledSelect">
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+						</div>
+					</div>
+					<div class="select-container">
+						<label for="styledSelect" class="select-label">Téléphone *</label>
+						<div class="styled-select">
+							<select id="styledSelect">
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="contact__row">
+					<input
+						type="text"
+						class="custom-input"
+						placeholder="Adresse e-mail professionnelle *"
+					/>
+
+					<input type="text" class="custom-input" placeholder="Raison Sociale *" />
+				</div>
+				<div class="contact__row">
+					<div class="custom-dropdown">
+						<select>
+							<option value="1">Relation avec Human Key *</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>
+					</div>
+				</div>
+				<p class="contact__paragraph">
+					Human Key utilisera les informations fournies ci-dessous en accord avec notre
+					<a href="#">déclaration de confidentialité</a>. Ce site est protégé par
+					reCAPTCHA, et la <a href="#">politique de confidentialité</a> ainsi que les
+					<a href="#">conditions de service</a> de Google s'appliquent.
+				</p>
+
+				<div class="contact__actions">
+					<button>Envoyer</button>
+					<div class="contact__actions-links">
+						<div class="contact__actions-links-link">
+							<p>lien google :</p>
+							<a href="https://policies.google.com/privacy?hl=fr"
+								>https://policies.google.com/privacy?hl=fr
+							</a>
+						</div>
+						<div class="contact__actions-links-link">
+							<p>lien google :</p>
+							<a href="https://policies.google.com/privacy?hl=fr"
+								>https://policies.google.com/terms?hl=fr
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer section">
+			<div class="footer__top">
+				<div class="footer__top-info">
+					<div class="footer__top-info-logo">
+						<img src="./images/logo.png" alt="logo company" />
+					</div>
+					<ul class="footer__top-info-lines">
+						<li>
+							<img src="./images/locaiton-icon.png" alt="location" />
+							<span
+								>Anfa West, Angle Bd, Sidi Abderrahmane et Rue de la Mer du Nord,
+								Aïn Diab 20180 Casablanca - Maroc
+							</span>
+						</li>
+						<li>
+							<img src="./images/phone-icon.png" alt="phone" />
+							<span>+212 520 474 126 </span>
+						</li>
+						<li>
+							<img src="./images/message-icon.png" alt="message" />
+							<span>Nous contacter </span>
+						</li>
+						<li>
+							<img src="./images/headset-icon.png" alt="headset" />
+							<span>Discutons en ligne </span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__top-links">
+					<ul>
+						<li><strong>A propos</strong></li>
+						<br />
+						<li><a href="#">Identité de l’entreprise</a></li>
+						<li><a href="#">HRMS : Vue d’ensemble</a></li>
+						<li><a href="#">Assurance de sécurité</a></li>
+					</ul>
+					<ul>
+						<li><strong>Solutions</strong></li>
+						<br />
+						<li><a href="#">Paie et déclaratif</a></li>
+						<li><a href="#">Temps et Activités</a></li>
+						<li><a href="#">Note de Frais</a></li>
+						<li><a href="#">Tableaux de Bord</a></li>
+						<li><a href="#">Administration RH</a></li>
+						<li><a href="#">Portail RH</a></li>
+						<li><a href="#">Recrutement</a></li>
+						<li><a href="#">Performance et Talents</a></li>
+						<li><a href="#">Pilotage masse salariale</a></li>
+						<li><a href="#">E-Document</a></li>
+					</ul>
+					<ul>
+						<li><strong>Support</strong></li>
+						<br />
+						<li><a href="#">Assistance Clientèle</a></li>
+						<li><a href="#">Aide de Basse</a></li>
+						<li><a href="#">Portail de Connaissances</a></li>
+						<li><a href="#">HRMS : Cycle de vie</a></li>
+						<li><a href="#">Maintenance et support</a></li>
+					</ul>
+					<ul>
+						<li><strong>Communauté</strong></li>
+						<br />
+						<li><a href="#">Synthèse Communautaire </a></li>
+						<li><a href="#">Communautés Clientèles </a></li>
+						<li><a href="#">Communautés Partenaires </a></li>
+						<li><a href="#">Dernières actualités </a></li>
+						<li><a href="#">Service Client </a></li>
+					</ul>
+					<ul>
+						<li><strong>Partenaires</strong></li>
+						<br />
+						<li><a href="#">Impact de nos Partenaires </a></li>
+						<li><a href="#">Rechercher un Partenaire </a></li>
+						<li><a href="#">Devenir Partenaire </a></li>
+						<li><a href="#">Distinctions et récompenses </a></li>
+						<li><a href="#">Espace Partenaires </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<a href="#"><img src="images/linkedin-icon.png" alt="" /></a>
+				<a href="#"><img src="images/youtube-icon.png" alt="" /></a>
+				<a href="#"><img src="images/twitter-icon.png" alt="" /></a>
+			</div>
+		</footer>
+	</body>
+	<script src="./script.js"></script>
+</html>

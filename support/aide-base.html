@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HumanKey Website | Nouvelles Sothema</title>
+		<link rel="stylesheet" href="./../style/style.css" />
+	</head>
+	<body style="overflow-y: hidden">
+		<!-- Header -->
+
+		<header class="header">
+			<a href="../index.html" class="header__logo">
+				<img src="../images/logo.png" alt="humankey logo" />
+			</a>
+			<nav class="header__nav">
+				<div class="header__nav-item dropdown">
+					<a href="">À Propos</a>
+					<ul class="dropdown__menu">
+						<li><a href="../entreprise/identity.html">Identité de l’entreprise</a></li>
+						<li><a href="../entreprise/hrms.html">HRMS : Vue d’ensemble</a></li>
+						<li><a href="../entreprise/assurance.html">Assurance de sécurité</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="./solutions">Solutions</a>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Support</a>
+					<ul class="dropdown__menu">
+						<li><a href="assistance.html">Assistance clientèle</a></li>
+						<li><a href="aide-base.html">Aide de base</a></li>
+						<li>
+							<a href="portail-connaissance.html"
+								>Portail de connaissances</a
+							>
+						</li>
+						<li><a href="hrms.html">HRMS : Cycle de vie</a></li>
+						<li><a href="maintenance.html">Maintenance et support</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Communauté</a>
+					<ul class="dropdown__menu">
+						<li><a href="../community/synthese.html">Synthèse Communautaire</a></li>
+						<li><a href="#">Communautés Clientèles</a></li>
+						<li><a href="#">Communautés Partenaires</a></li>
+						<li><a href="#">Dernières actualités</a></li>
+						<li><a href="#">Service Client</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="../partners">Partenaires</a>
+				</div>
+			</nav>
+			<div class="header__actions">
+				<a href="../contact.html">Contact</a>
+				<button>
+					FRA
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="feather feather-chevron-down"
+					>
+						<polyline points="6 9 12 15 18 9"></polyline>
+					</svg>
+				</button>
+			</div>
+		</header>
+
+		<main class="aidebase">
+			<section class="section aidebase__img">
+				<img src="../images/aide-base/first_slide.png" alt="" />
+			</section>
+
+			<section class="section aidebase__img">
+				<img src="../images/aide-base/second_slide.png" alt="" />
+			</section>
+
+			<section class="section aidebase__nouveau">
+				<div class="aidebase__nouveau-title">
+					<h1>Les nouveautés en support client</h1>
+				</div>
+				<div class="wrapper">
+					<button id="sliderPrevBtn" class="slider-button prev">&laquo;</button>
+					<div class="slider-wrapper">
+						<div id="sliderContent" class="aidebase__nouveau-slider">
+							<a href="#" data-screen="1"
+								><img src="../images/aide-base/slider/1.png" alt=""
+							/></a>
+							<a href="#" data-screen="2"
+								><img src="../images/aide-base/slider/2.png" alt=""
+							/></a>
+							<a href="#" data-screen="3"
+								><img src="../images/aide-base/slider/3.png" alt=""
+							/></a>
+							<a href="#" data-screen="4"
+								><img src="../images/aide-base/slider/4.png" alt=""
+							/></a>
+							<a href="#" data-screen="5"
+								><img src="../images/aide-base/slider/5.png" alt=""
+							/></a>
+							<a href="#" data-screen="6"
+								><img src="../images/aide-base/slider/6.png" alt=""
+							/></a>
+						</div>
+					</div>
+					<button id="sliderNextBtn" class="slider-button next">&raquo;</button>
+				</div>
+			</section>
+
+			<section class="section aidebase__screens">
+				<img src="../images/aide-base/nouveau/1.png" alt="" class="screen screen-1" />
+				<img
+					src="../images/aide-base/nouveau/2.png"
+					alt=""
+					class="screen screen-2"
+					style="display: none"
+				/>
+				<img
+					src="../images/aide-base/nouveau/3.png"
+					alt=""
+					class="screen screen-3"
+					style="display: none"
+				/>
+				<img
+					src="../images/aide-base/nouveau/4.png"
+					alt=""
+					class="screen screen-4"
+					style="display: none"
+				/>
+				<img
+					src="../images/aide-base/nouveau/5.png"
+					alt=""
+					class="screen screen-5"
+					style="display: none"
+				/>
+				<img
+					src="../images/aide-base/nouveau/6.png"
+					alt=""
+					class="screen screen-6"
+					style="display: none"
+				/>
+			</section>
+		</main>
+
+		<footer class="footer section">
+			<div class="footer__top">
+				<div class="footer__top-info">
+					<div class="footer__top-info-logo">
+						<img src="../images/logo.png" alt="logo company" />
+					</div>
+					<ul class="footer__top-info-lines">
+						<li>
+							<img src="../images/locaiton-icon.png" alt="location" />
+							<span
+								>Anfa West, Angle Bd, Sidi Abderrahmane et Rue de la Mer du Nord,
+								Aïn Diab 20180 Casablanca - Maroc
+							</span>
+						</li>
+						<li>
+							<img src="../images/phone-icon.png" alt="phone" />
+							<span>+212 520 474 126 </span>
+						</li>
+						<li>
+							<img src="../images/message-icon.png" alt="message" />
+							<span>Nous contacter </span>
+						</li>
+						<li>
+							<img src="../images/headset-icon.png" alt="headset" />
+							<span>Discutons en ligne </span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__top-links">
+					<ul>
+						<li><strong>A propos</strong></li>
+						<br />
+						<li><a href="#">Identité de l’entreprise</a></li>
+						<li><a href="#">HRMS : Vue d’ensemble</a></li>
+						<li><a href="#">Assurance de sécurité</a></li>
+					</ul>
+					<ul>
+						<li><strong>Solutions</strong></li>
+						<br />
+						<li><a href="#">Paie et déclaratif</a></li>
+						<li><a href="#">Temps et Activités</a></li>
+						<li><a href="#">Note de Frais</a></li>
+						<li><a href="#">Tableaux de Bord</a></li>
+						<li><a href="#">Administration RH</a></li>
+						<li><a href="#">Portail RH</a></li>
+						<li><a href="#">Recrutement</a></li>
+						<li><a href="#">Performance et Talents</a></li>
+						<li><a href="#">Pilotage masse salariale</a></li>
+						<li><a href="#">E-Document</a></li>
+					</ul>
+					<ul>
+						<li><strong>Support</strong></li>
+						<br />
+						<li><a href="#">Assistance Clientèle</a></li>
+						<li><a href="#">Aide de Basse</a></li>
+						<li><a href="#">Portail de Connaissances</a></li>
+						<li><a href="#">HRMS : Cycle de vie</a></li>
+						<li><a href="#">Maintenance et support</a></li>
+					</ul>
+					<ul>
+						<li><strong>Communauté</strong></li>
+						<br />
+						<li><a href="#">Synthèse Communautaire </a></li>
+						<li><a href="#">Communautés Clientèles </a></li>
+						<li><a href="#">Communautés Partenaires </a></li>
+						<li><a href="#">Dernières actualités </a></li>
+						<li><a href="#">Service Client </a></li>
+					</ul>
+					<ul>
+						<li><strong>Partenaires</strong></li>
+						<br />
+						<li><a href="#">Impact de nos Partenaires </a></li>
+						<li><a href="#">Rechercher un Partenaire </a></li>
+						<li><a href="#">Devenir Partenaire </a></li>
+						<li><a href="#">Distinctions et récompenses </a></li>
+						<li><a href="#">Espace Partenaires </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<a href="#"><img src="../images/linkedin-icon.png" alt="" /></a>
+				<a href="#"><img src="../images/youtube-icon.png" alt="" /></a>
+				<a href="#"><img src="../images/twitter-icon.png" alt="" /></a>
+			</div>
+		</footer>
+	</body>
+	<script src="../script.js"></script>
+
+	<script>
+		const sliderContent = document.getElementById("sliderContent");
+		const sliderPrevBtn = document.getElementById("sliderPrevBtn");
+		const sliderNextBtn = document.getElementById("sliderNextBtn");
+		const totalSlides = 6; // total number of slides
+		const visibleSlides = 3; // number of slides visible at once
+		const slideWidth = 398; // width of each slide (including margin)
+		let currentSlideIndex = 0;
+
+		// Update slider position and button states
+		function updateSlider() {
+			const translateX = -currentSlideIndex * slideWidth;
+			sliderContent.style.transform = `translateX(${translateX}px)`;
+
+			// Disable buttons if we reach the start or end
+			sliderPrevBtn.disabled = currentSlideIndex === 0;
+			sliderNextBtn.disabled = currentSlideIndex >= totalSlides - visibleSlides;
+		}
+
+		// Display the corresponding screen based on the clicked slide
+		function showScreen(screenIndex) {
+			const screens = document.querySelectorAll(".aidebase__screens img");
+			screens.forEach((screen, index) => {
+				screen.style.display = index + 1 === screenIndex ? "block" : "none";
+			});
+		}
+
+		// Add click event to slides
+		sliderContent.querySelectorAll("a").forEach((slide, index) => {
+			slide.addEventListener("click", (event) => {
+				event.preventDefault();
+				const screenIndex = parseInt(slide.getAttribute("data-screen"));
+				showScreen(screenIndex);
+			});
+		});
+
+		// Button event listeners
+		sliderPrevBtn.addEventListener("click", () => {
+			if (currentSlideIndex > 0) {
+				currentSlideIndex--;
+				updateSlider();
+			}
+		});
+
+		sliderNextBtn.addEventListener("click", () => {
+			if (currentSlideIndex < totalSlides - visibleSlides) {
+				currentSlideIndex++;
+				updateSlider();
+			}
+		});
+
+		// Initial update
+		updateSlider();
+		showScreen(1); // Show the first screen initially
+	</script>
+	<!-- <script>
+		const slides = document.querySelectorAll(".aidebase__nouveau-slider a");
+		const screens = document.querySelectorAll(".aidebase__screens img");
+		const prevButton = document.querySelector(".slider-button.prev");
+		const nextButton = document.querySelector(".slider-button.next");
+		const totalSlides = slides.length;
+		const visibleSlides = 3;
+		let currentIndex = 0;
+
+		function updateSlider() {
+			const sliderWrapper = document.querySelector(".slider-wrapper");
+			sliderWrapper.style.transform = `translateX(-${currentIndex * (1272 / 3)}px)`;
+
+			prevButton.disabled = currentIndex === 0;
+			nextButton.disabled = currentIndex + visibleSlides >= totalSlides;
+		}
+
+		function updateScreens(screenIndex) {
+			screens.forEach((screen, index) => {
+				if (index + 1 === screenIndex) {
+					screen.style.display = "block";
+				} else {
+					screen.style.display = "none";
+				}
+			});
+		}
+
+		// Event listeners for buttons
+		prevButton.addEventListener("click", () => {
+			if (currentIndex > 0) {
+				currentIndex -= visibleSlides;
+				updateSlider();
+			}
+		});
+
+		nextButton.addEventListener("click", () => {
+			if (currentIndex + visibleSlides < totalSlides) {
+				currentIndex += visibleSlides;
+				updateSlider();
+			}
+		});
+
+		// Event listeners for slide clicks
+		slides.forEach((slide) => {
+			slide.addEventListener("click", (event) => {
+				event.preventDefault();
+				const screenIndex = parseInt(slide.getAttribute("data-screen"));
+				updateScreens(screenIndex);
+			});
+		});
+
+		// Initialize
+		updateSlider();
+		updateScreens(1); // Display the first screen by default
+	</script> -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const sections = document.querySelectorAll(".section");
+			let currentSectionIndex = 0;
+
+			document.addEventListener("wheel", function (event) {
+				if (event.deltaY > 0) {
+					currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
+				} else {
+					currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
+				}
+				sections[currentSectionIndex].scrollIntoView({ behavior: "smooth" });
+			});
+		});
+	</script>
+</html>

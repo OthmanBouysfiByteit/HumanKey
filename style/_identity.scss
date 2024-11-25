@@ -1,0 +1,302 @@
+.identity {
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	padding-inline: 256px;
+
+	padding-top: 8rem;
+
+	color: #ffffff;
+
+	min-height: 100vh;
+
+	&__top {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+
+		gap: 3rem;
+
+		margin-bottom: 2rem;
+
+		h2 {
+			font-size: 32px;
+		}
+
+		&-actions {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 3rem;
+
+			button {
+				font-size: 18px;
+				background: transparent;
+				color: #ffffff;
+				padding: 1rem;
+				border: none;
+			}
+		}
+	}
+
+	&__presentation {
+		background-color: #283157;
+		padding: 2rem;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+		gap: 4rem;
+
+		&-text {
+			width: 50%;
+			p {
+				margin-bottom: 1rem;
+				text-align: justify;
+				line-height: 1.3;
+
+				font-size: 18px;
+			}
+		}
+
+		&-img {
+			width: 50%;
+
+			display: grid;
+			place-items: center;
+
+			img {
+				width: 90%;
+			}
+		}
+	}
+
+	&__quality {
+		margin-bottom: 2rem;
+		background-color: #283157;
+		padding: 2rem;
+		border-radius: 8px;
+
+		display: flex;
+		flex-direction: column;
+
+		height: 600px;
+		width: 100%;
+
+		h2 {
+			align-self: center;
+			margin-bottom: 2rem;
+			font-size: 32px;
+		}
+
+		display: flex;
+		flex-direction: column;
+
+		&-bottom {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			height: 400px;
+
+			&-text {
+				width: 50%;
+				padding-inline: 4rem;
+
+				p {
+					width: 80%;
+					font-size: 20px;
+					line-height: 1.3;
+					margin-block: auto;
+					text-align: justify;
+					position: relative;
+					z-index: 2;
+				}
+			}
+
+			&-img {
+				width: 50%;
+				img {
+					position: relative;
+					z-index: 1;
+					left: -10rem;
+					width: 120%;
+				}
+			}
+		}
+	}
+
+	&__vision {
+		background-color: #283157;
+
+		padding: 2rem;
+		border-radius: 1rem;
+
+		&-top {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+
+			gap: 3rem;
+
+			margin-bottom: 2rem;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			&-actions {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: 3rem;
+
+				button {
+					font-size: 18px;
+					background: transparent;
+					color: #ffffff;
+					padding: 1rem;
+					border: none;
+				}
+			}
+		}
+
+		&-slide2 {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			gap: 2rem;
+
+			&-text {
+				width: 50%;
+				padding-inline: 4rem;
+
+				line-height: 1.3;
+				text-align: justify;
+				font-size: 20px;
+			}
+
+			&-cards {
+				width: 50%;
+
+				h2 {
+					margin-bottom: 2rem;
+				}
+
+				&-card {
+					width: 85%;
+					background: linear-gradient(160deg, #6872a0, #1c254c);
+					padding: 0.5rem 1rem;
+					border-radius: 8px;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+
+		&-slide1 {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			justify-content: center;
+
+			gap: 4rem;
+
+			padding: 2rem;
+			&-text {
+				width: 50%;
+
+				line-height: 1.3;
+				text-align: justify;
+				font-size: 24px;
+
+				p {
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+
+	&__reglement {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		background-color: #283157;
+
+		padding: 2rem;
+		padding-inline: 4rem;
+		border-radius: 0.5rem;
+
+		&-actions {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 2rem;
+
+			margin-bottom: 2rem;
+
+			button {
+				padding-block: 1rem;
+				margin-left: 1rem;
+				font-size: 20px;
+				color: #ffffff;
+
+				background-color: transparent;
+				border: none;
+				font-weight: 500;
+			}
+		}
+
+		&-gestion {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			&-paragraph {
+				width: 50%;
+				font-size: 20px;
+				margin-inline: 4rem;
+				text-align: justify;
+				line-height: 1.3;
+			}
+
+			&-cards {
+				width: 50%;
+
+				h2 {
+					margin-bottom: 2rem;
+				}
+
+				&-card {
+					background: linear-gradient(-160deg, #6872a0, #1c254c);
+					padding: 0.5rem 1rem;
+					border-radius: 8px;
+					margin-bottom: 1rem;
+
+					p {
+						width: 100%;
+						font-size: 16px;
+
+						strong {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

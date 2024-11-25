@@ -1,0 +1,127 @@
+.solutions {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin-inline: 15%;
+
+	@media screen and (max-width: 1240px) {
+		min-height: 100vh;
+		height: auto;
+		margin-inline: 5%;
+	}
+
+	&__top {
+		margin-top: 8rem;
+		margin-bottom: 2rem;
+
+		@media screen and (max-width: 1240px) {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+
+		h1 {
+			color: #ffffff;
+			font-size: 48px;
+
+			@media screen and (max-width: 1240px) {
+				font-size: 28px;
+			}
+
+			@media screen and (max-width: 768px) {
+				font-size: 24px;
+			}
+		}
+	}
+
+	&__bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		gap: 2rem;
+
+		@media screen and (max-width: 1240px) {
+			flex-direction: column;		}
+
+		&-card {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+
+			color: #ffffff;
+
+			width: 350px;
+
+			border-radius: 1rem;
+
+			&:nth-child(1) {
+				background-color: #252e53;
+			}
+			&:nth-child(2) {
+				background-color: #5c1a33;
+			}
+			&:nth-child(3) {
+				background-color: #0a3d23;
+			}
+			&:nth-child(4) {
+				background-color: #5e4c12;
+			}
+
+			&-img {
+				width: 100%;
+				margin-bottom: 1rem;
+				overflow: hidden;
+
+				border-top-left-radius: 1rem;
+				border-top-right-radius: 1rem;
+
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+
+				position: relative;
+				top: -8px;
+
+				img {
+					width: 110%;
+				}
+			}
+
+			&-text {
+				padding: 1rem;
+				text-align: center;
+				height: 280px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				&-title {
+					margin-bottom: 1rem;
+					font-size: 20px;
+				}
+
+				&-paragraph {
+					font-size: 18px;
+					line-height: 1.3;
+					margin-bottom: 2rem;
+				}
+
+				&-action {
+					text-align: end;
+
+					a {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						justify-content: flex-end;
+						color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+}

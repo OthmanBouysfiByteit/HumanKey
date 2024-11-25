@@ -1,0 +1,21 @@
+.support_hrms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-inline: 256px;
+
+    padding-block: 4rem;
+    
+    &__img{
+        padding-block: 4rem;
+        min-height: 100vh;
+
+        display: grid;
+        place-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+}

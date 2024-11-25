@@ -1,0 +1,39 @@
+.custom-dropdown {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	background-color: transparent;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.custom-dropdown select {
+	width: 100%;
+	padding: 10px;
+	appearance: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #333;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.custom-dropdown::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #333;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.custom-dropdown select:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}

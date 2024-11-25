@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HumanKey Website | À Propos De L'entreprise</title>
+		<link rel="stylesheet" href="./../style/style.css" />
+	</head>
+	<body>
+		<!-- Header -->
+
+		<header class="header">
+			<a href="../index.html" class="header__logo">
+				<img src="../images/logo.png" alt="humankey logo" />
+			</a>
+			<nav class="header__nav">
+				<div class="header__nav-item dropdown">
+					<a href="">À Propos</a>
+					<ul class="dropdown__menu">
+						<li><a href="identity.html">Identité de l’entreprise</a></li>
+						<li><a href="hrms.html">HRMS : Vue d’ensemble</a></li>
+						<li><a href="assurance.html">Assurance de sécurité</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="../solutions">Solutions</a>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Support</a>
+					<ul class="dropdown__menu">
+						<li><a href="../support/assistance.html">Assistance clientèle</a></li>
+						<li><a href="../support/aide-base.html">Aide de base</a></li>
+						<li>
+							<a href="../support/portail-connaissance.html"
+								>Portail de connaissances</a
+							>
+						</li>
+						<li><a href="../support/hrms.html">HRMS : Cycle de vie</a></li>
+						<li><a href="../support/maintenance.html">Maintenance et support</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="">Communauté</a>
+					<ul class="dropdown__menu">
+						<li><a href="../community/synthese.html">Synthèse Communautaire</a></li>
+						<li><a href="#">Communautés Clientèles</a></li>
+						<li><a href="#">Communautés Partenaires</a></li>
+						<li><a href="#">Dernières actualités</a></li>
+						<li><a href="#">Service Client</a></li>
+					</ul>
+				</div>
+				<div class="header__nav-item dropdown">
+					<a href="../partners">Partenaires</a>
+				</div>
+			</nav>
+			<div class="header__actions">
+				<a href="../contact.html">Contact</a>
+				<button>
+					FRA
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="feather feather-chevron-down"
+					>
+						<polyline points="6 9 12 15 18 9"></polyline>
+					</svg>
+				</button>
+			</div>
+		</header>
+
+		<div class="container">
+			<section class="identity section">
+				<div class="identity__top">
+					<h2>Identité de l’entreprise</h2>
+					<div class="identity__top-actions">
+						<button id="identity-btn-1" class="active-underline">Présentation</button>
+						<button id="identity-btn-2">Qualité redéfinie</button>
+						<button id="identity-btn-3">Reglementation RH</button>
+					</div>
+				</div>
+
+				<!-- PRESENTATION -->
+
+				<div id="identity-tab-1" class="identity__presentation">
+					<div class="identity__presentation-text">
+						<p>
+							<b>Human Key</b>, notre HRMS, est développé par des experts en
+							Ressources Humaines et une équipe d’ingénieurs en informatique
+							maîtrisant les dernières technologies d’information. Ce HRMS est
+							développé par <b>Marchiche Global Solutions</b>, une entreprise
+							spécialisée dans l'externalisation des fonctions RH et l'intégration de
+							systèmes d'information RH à l'échelle nationale et internationale.
+						</p>
+						<p>
+							Fondée en 2008 et bénéficiant de plus de 20 ans d'expérience de son
+							fondateur, Marchiche Global Solutions s'est rapidement imposée comme une
+							référence dans son domaine.
+						</p>
+
+						<p>
+							Nous comprenons l'importance stratégique des Ressources Humaines pour le
+							succès d'une entreprise et offrons notre expertise pour aider nos
+							clients à optimiser leur gestion RH avec des solutions innovantes et sur
+							mesure.
+						</p>
+
+						<p>
+							Grâce à notre expérience et à notre savoir-faire, nous répondons aux
+							besoins spécifiques de chaque entreprise, quelle que soit sa taille ou
+							son secteur d'activité.
+						</p>
+					</div>
+					<div class="identity__presentation-img">
+						<img src="../images/identity_building.png" alt="" />
+					</div>
+				</div>
+
+				<!-- QUALITY -->
+
+				<div
+					id="identity-tab-2"
+					style="
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+						gap: 4rem;
+					"
+				>
+					<div class="identity__quality section">
+						<h2>Pour nos clients et leur futur, une innovation continue</h2>
+						<div class="identity__quality-bottom">
+							<div class="identity__quality-bottom-text">
+								<p>
+									Notre département de Recherche et Développement explore en
+									permanence de nouvelles idées et technologies telles que les
+									technologies quantiques, la blockchain, les cryptomonnaies, et
+									d'autres domaines innovants. Cela vise à façonner les logiciels
+									d'entreprise de demain, introduire des innovations concrètes et
+									promouvoir la durabilité.
+								</p>
+							</div>
+							<div class="identity__quality-bottom-img">
+								<img src="../images/identity_quality.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<div class="identity__vision section" style="margin-bottom: 4rem">
+						<div class="identity__vision-top">
+							<h2>Notre vision de l'innovation</h2>
+							<div class="identity__vision-top-actions">
+								<button
+									class="active-underline"
+									id="identity-inner-btn-1"
+									class="active-underline"
+								>
+									Les systèmes d'entreprise
+								</button>
+								<button id="identity-inner-btn-2">
+									Amélioration des processus
+								</button>
+								<button id="identity-inner-btn-3">Fiabilité des données</button>
+							</div>
+						</div>
+
+						<div id="identity-inner-slide-1" class="identity__vision-slide1">
+							<div class="identity__vision-slide1-text">
+								<p>
+									Chaque entreprise bien gérée s'engage à utiliser efficacement
+									les ressources, car cela influence directement la durabilité de
+									notre planète. Être une entreprise bien gérée nécessite une
+									constante réinvention à travers l'adoption de nouveaux modèles
+									économiques et de technologies innovantes, permettant une
+									évolution plus intelligente et rapide que jamais.
+								</p>
+								<p>
+									L'innovation va au-delà de la simple utilisation de la
+									technologie ; elle nécessite une approche originale et créative.
+								</p>
+							</div>
+							<div class="identity__vision-slide1-text">
+								<p>
+									En intégrant des perspectives variées issues d'individus aux
+									compétences diversifiées, et en encourageant la collaboration
+									entre des esprits brillants d'horizons différents, on crée un
+									environnement propice à la génération d'idées novatrices. Cette
+									diversité favorise une réflexion innovante face aux défis
+									technologiques, conduisant à des solutions qui dépassent les
+									standards établis. Le travail en équipes interdisciplinaires
+									enrichit les perspectives individuelles et stimule une
+									créativité collective, exploitant ainsi pleinement le potentiel
+									des technologies disponibles et catalysant des innovations
+									révolutionnaires dans tous les secteurs technologiques.
+								</p>
+							</div>
+						</div>
+
+						<div
+							id="identity-inner-slide-2"
+							style="display: none"
+							class="identity__vision-slide2"
+						>
+							<div class="identity__vision-slide2-text">
+								<p>
+									La transformation de la gestion des ressources via l'innovation
+									technologique repose sur plusieurs piliers essentiels : une
+									refonte des processus traditionnels intégrant les données et le
+									Machine Learning pour des actions en temps réel; l'utilisation
+									avancée des données pour rationaliser les opérations à travers
+									tous les départements; la connectivité interne favorisant la
+									collaboration entre acteurs et départements; et un écosystème
+									B2B dynamique pour une personnalisation des solutions adaptées à
+									chaque secteur.
+								</p>
+							</div>
+							<div class="identity__vision-slide2-cards">
+								<h2>Processus de transformation technologique</h2>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Évaluation des besoins et objectifs</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Exploration des données pour opportunités</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Adoption du Machine Learning et de l'IA</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Implémentation de solutions technologiques</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Formation et adaptation</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Optimisation continue</p>
+								</div>
+								<div class="identity__vision-slide2-cards-card">
+									<p>Collaboration et écosystème B2B</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							id="identity-inner-slide-3"
+							style="display: none"
+							class="identity__vision-slide1"
+						>
+							<div class="identity__vision-slide1-text">
+								<p>
+									Pour des décisions opérationnelles optimales, il est primordial
+									d'utiliser des données provenant à la fois de l'entreprise et
+									d'autres sources externes pertinentes. Cette approche requiert
+									l'adoption d'un système intelligent capable de traiter des
+									données décentralisées, tout en établissant une couche
+									sémantique de données accessible à l'échelle de l'entreprise et
+									de son environnement. En parallèle, il est nécessaire de
+									réinventer la manière dont les décisions sont prises en les
+									intégrant directement aux processus opérationnels, afin
+									d'améliorer leur fluidité et leur efficacité globale.
+								</p>
+							</div>
+							<div class="identity__vision-slide1-text">
+								<p>
+									Pour prendre des décisions éclairées, il est crucial de cultiver
+									un lien de confiance solide entre les individus, les entreprises
+									et les systèmes en place. Ce lien de confiance repose sur
+									l'utilisation d'une plateforme technologique d'entreprise
+									reconnue pour sa fiabilité et son exactitude, assurant la
+									sécurité et la protection des intérêts de toutes les parties
+									impliquées. En instaurant un environnement de transparence et
+									d'intégrité, les réseaux d'entreprises peuvent opérer de manière
+									harmonieuse et efficace, facilitant ainsi la prise de décisions
+									stratégiques étayées par des données fiables et vérifiables.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="identity-tab-3" class="identity__reglement">
+					<div class="identity__reglement-actions">
+						<button class="active-underline" id="gestionBtn">
+							Gestion Multi-Réglementaires
+						</button>
+						<button id="standardBtn">Réglementaire standard intégré</button>
+						<button id="veilleBtn">Veille Réglementaire</button>
+					</div>
+
+					<div id="gestionContent" class="identity__reglement-gestion">
+						<p class="identity__reglement-gestion-paragraph">
+							Dans un monde où les entreprises opèrent à l'échelle internationale, la
+							Gestion des Ressources Humaines devient de plus en plus complexe en
+							raison des réglementations variées dans chaque pays. Notre HRMS est
+							capable de gérer multi-réglementations standards RH représente un atout
+							stratégique majeur pour les organisations modernes.
+						</p>
+
+						<div class="identity__reglement-gestion-cards">
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Harmonisation des pratiques RH </strong><br />Notre HRMS
+									Multi-Réglementations uniformise les pratiques RH mondiales et
+									minimise les risques de non-conformité.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Centralisation des données de la Gestion RH </strong
+									><br />Notre HRMS sécurise et gère les données personnelles des
+									employés, en respectant les lois locales sur la protection des
+									données.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Optimisation des processus administratifs </strong
+									><br />Notre HRMS Multi-Réglementations automatise la gestion
+									des congés, simplifiant les tâches administratives pour RH et
+									gestionnaires.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong
+										>Amélioration de la prise de décision stratégique </strong
+									><br />Notre HRMS Multi-Réglementations offre des analyses
+									globales pour des décisions stratégiques informées et une
+									gestion optimale des tendances.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong
+										>Réduction des coûts et augmentation de l'efficacité </strong
+									><br />Notre HRMS Multi-Réglementations uniformise les pratiques
+									RH mondiales et minimise les risques de non-conformité.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="standardContent"
+						style="display: none"
+						class="identity__reglement-gestion"
+					>
+						<p class="identity__reglement-gestion-paragraph">
+							Dans un environnement globalisé où les entreprises opèrent à travers de
+							multiples juridictions, la conformité aux réglementations RH locales est
+							essentielle pour assurer une gestion efficace et légale des ressources
+							humaines. En intégrant de manière proactive les réglementations standard
+							RH de chaque pays dans notre SIRH, nous avons transformé un défi
+							complexe en un avantage stratégique significatif pour les entreprises.
+							Voici les principaux avantages de cette intégration technologique.
+						</p>
+
+						<div class="identity__reglement-gestion-cards">
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Conformité légale simplifiée </strong><br />Notre HRMS
+									intègre les réglementations RH locales, assurant ainsi la
+									conformité légale et réduisant les risques de pénalités et de
+									litiges.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Optimisation des processus RH </strong><br />Notre HRMS
+									automatise les tâches RH locales, réduisant la charge de travail
+									et améliorant l'efficacité.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Centralisation et sécurisation des données </strong
+									><br />Notre HRMS centralise et sécurise les données des
+									collaborateurs, respectant les normes locales et facilitant
+									l'accès.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Flexibilité et adaptabilité </strong><br />Notre HRMS
+									évolutif intègre facilement les changements législatifs, offrant
+									flexibilité et adaptabilité aux entreprises.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Réduction des coûts </strong><br />Notre HRMS réduit les
+									coûts en automatisant les processus RH, libérant ainsi des
+									ressources pour des initiatives stratégiques.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="veilleContent"
+						style="display: none"
+						class="identity__reglement-gestion"
+					>
+						<p class="identity__reglement-gestion-paragraph">
+							La veille réglementaire sociale et fiscale joue un rôle crucial dans la
+							Gestion efficace des Ressources Humaines à l'échelle nationale et
+							internationale. En intégrant ce service essentielle dans notre HRMS,
+							nous offrons à nos clients un avantage stratégique significatif pour
+							naviguer à travers les complexités des lois locales dans chaque pays où
+							ils opèrent.
+						</p>
+
+						<div class="identity__reglement-gestion-cards">
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Conformité légale renforcée </strong><br />La veille
+									réglementaire dans notre HRMS assure la conformité légale en
+									adaptant rapidement aux changements, réduisant ainsi les
+									risques.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Optimisation des processus RH et financiers </strong
+									><br />Nos équipes de fiscalistes et financiers surveillent les
+									évolutions réglementaires pour optimiser les processus RH et
+									financiers.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong
+										>Réduction des risques et anticipation des besoins </strong
+									><br />Nos équipes surveillent les règlements pour anticiper les
+									changements légaux et diminuer les risques financiers et
+									opérationnels.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong>Amélioration de la gestion stratégique </strong><br />La
+									veille réglementaire par des spécialistes assure aux dirigeants
+									la conformité aux lois locales en vigueur.
+								</p>
+							</div>
+							<div class="identity__reglement-gestion-cards-card">
+								<p>
+									<strong
+										>Meilleure gestion de la réputation et de la confiance </strong
+									><br />La conformité rigoureuse renforce la réputation des
+									entreprises grâce à leur engagement envers les normes
+									réglementaires locales.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer section">
+			<div class="footer__top">
+				<div class="footer__top-info">
+					<div class="footer__top-info-logo">
+						<img src="../images/logo.png" alt="logo company" />
+					</div>
+					<ul class="footer__top-info-lines">
+						<li>
+							<img src="../images/locaiton-icon.png" alt="location" />
+							<span
+								>Anfa West, Angle Bd, Sidi Abderrahmane et Rue de la Mer du Nord,
+								Aïn Diab 20180 Casablanca - Maroc
+							</span>
+						</li>
+						<li>
+							<img src="../images/phone-icon.png" alt="phone" />
+							<span>+212 520 474 126 </span>
+						</li>
+						<li>
+							<img src="../images/message-icon.png" alt="message" />
+							<span>Nous contacter </span>
+						</li>
+						<li>
+							<img src="../images/headset-icon.png" alt="headset" />
+							<span>Discutons en ligne </span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__top-links">
+					<ul>
+						<li><strong>A propos</strong></li>
+						<br />
+						<li><a href="./entreprise/identity.html">Identité de l’entreprise</a></li>
+						<li><a href="./entreprise/hrms.html">HRMS : Vue d’ensemble</a></li>
+						<li><a href="./entreprise/assurance.html">Assurance de sécurité</a></li>
+					</ul>
+					<ul>
+						<li><strong>Solutions</strong></li>
+						<br />
+						<li><a href="#">Paie et déclaratif</a></li>
+						<li><a href="#">Temps et Activités</a></li>
+						<li><a href="#">Note de Frais</a></li>
+						<li><a href="#">Tableaux de Bord</a></li>
+						<li><a href="#">Administration RH</a></li>
+						<li><a href="#">Portail RH</a></li>
+						<li><a href="#">Recrutement</a></li>
+						<li><a href="#">Performance et Talents</a></li>
+						<li><a href="#">Pilotage masse salariale</a></li>
+						<li><a href="#">E-Document</a></li>
+					</ul>
+					<ul>
+						<li><strong>Support</strong></li>
+						<br />
+						<li><a href="./support/assistance.html">Assistance Clientèle</a></li>
+						<li><a href="./support/aide-base.html">Aide de Basse</a></li>
+						<li>
+							<a href="./support/portail-connaissance.html"
+								>Portail de Connaissances</a
+							>
+						</li>
+						<li><a href="./support/hrms.html">HRMS : Cycle de vie</a></li>
+						<li><a href="./support/maintenance.html">Maintenance et support</a></li>
+					</ul>
+					<ul>
+						<li><strong>Communauté</strong></li>
+						<br />
+						<li><a href="./community/synthese.html">Synthèse Communautaire </a></li>
+						<li><a href="./community/synthese.html">Communautés Clientèles </a></li>
+						<li><a href="./community/synthese.html">Communautés Partenaires </a></li>
+						<li><a href="./community/synthese.html">Dernières actualités </a></li>
+						<li><a href="./community/synthese.html">Service Client </a></li>
+					</ul>
+					<ul>
+						<li><strong>Partenaires</strong></li>
+						<br />
+						<li><a href="#">Impact de nos Partenaires </a></li>
+						<li><a href="#">Rechercher un Partenaire </a></li>
+						<li><a href="#">Devenir Partenaire </a></li>
+						<li><a href="#">Distinctions et récompenses </a></li>
+						<li><a href="#">Espace Partenaires </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<a href="#"><img src="./images/linkedin-icon.png" alt="" /></a>
+				<a href="#"><img src="./images/youtube-icon.png" alt="" /></a>
+				<a href="#"><img src="./images/twitter-icon.png" alt="" /></a>
+			</div>
+		</footer>
+	</body>
+	<script src="../script.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const gestionBtn = document.getElementById("gestionBtn");
+			const standardBtn = document.getElementById("standardBtn");
+			const veilleBtn = document.getElementById("veilleBtn");
+
+			const gestionContent = document.getElementById("gestionContent");
+			const standardContent = document.getElementById("standardContent");
+			const veilleContent = document.getElementById("veilleContent");
+
+			// Function to hide all content sections
+			function hideAllContent() {
+				gestionContent.style.display = "none";
+				standardContent.style.display = "none";
+				veilleContent.style.display = "none";
+			}
+
+			// Function to remove 'active-underline' from all buttons
+			function removeActiveClass() {
+				gestionBtn.classList.remove("active-underline");
+				standardBtn.classList.remove("active-underline");
+				veilleBtn.classList.remove("active-underline");
+			}
+
+			// Show the appropriate content and add the active class when a button is clicked
+			gestionBtn.addEventListener("click", function () {
+				hideAllContent();
+				removeActiveClass();
+				gestionContent.style.display = "flex";
+				gestionBtn.classList.add("active-underline");
+			});
+
+			standardBtn.addEventListener("click", function () {
+				hideAllContent();
+				removeActiveClass();
+				standardContent.style.display = "flex";
+				standardBtn.classList.add("active-underline");
+			});
+
+			veilleBtn.addEventListener("click", function () {
+				hideAllContent();
+				removeActiveClass();
+				veilleContent.style.display = "flex";
+				veilleBtn.classList.add("active-underline");
+			});
+
+			// Optionally, show the first section by default and set the active class
+			hideAllContent();
+			gestionContent.style.display = "flex";
+			gestionBtn.classList.add("active-underline");
+		});
+	</script>
+
+	<script>
+		function openTab(tabNumber) {
+			for (let i = 1; i < 4; i++) {
+				document.getElementById("identity-tab-" + i).style.display = "none";
+				document.getElementById("identity-btn-" + i).classList.remove("active-underline");
+			}
+			// Show the selected tab
+			document.getElementById("identity-tab-" + tabNumber).style.display = "flex";
+			document.getElementById("identity-btn-" + tabNumber).classList.add("active-underline");
+		}
+
+		// Add event listeners for each button
+		document.getElementById("identity-btn-1").addEventListener("click", function () {
+			openTab(1);
+		});
+		document.getElementById("identity-btn-2").addEventListener("click", function () {
+			openTab(2);
+		});
+		document.getElementById("identity-btn-3").addEventListener("click", function () {
+			openTab(3);
+		});
+
+		// Initial state: Show Tab 1 by default
+		openTab(1);
+	</script>
+	<script>
+		function openInnerTab(tabNumber) {
+			for (let i = 1; i < 4; i++) {
+				document.getElementById("identity-inner-slide-" + i).style.display = "none";
+				document
+					.getElementById("identity-inner-btn-" + i)
+					.classList.remove("active-underline");
+			}
+			// Show the selected tab
+			document.getElementById("identity-inner-slide-" + tabNumber).style.display = "flex";
+			document
+				.getElementById("identity-inner-btn-" + tabNumber)
+				.classList.add("active-underline");
+		}
+
+		// Add event listeners for each button
+		document.getElementById("identity-inner-btn-1").addEventListener("click", function () {
+			openInnerTab(1);
+		});
+		document.getElementById("identity-inner-btn-2").addEventListener("click", function () {
+			openInnerTab(2);
+		});
+		document.getElementById("identity-inner-btn-3").addEventListener("click", function () {
+			openInnerTab(3);
+		});
+
+		// Initial state: Show Tab 1 by default
+		openInnerTab(1);
+	</script>
+</html>

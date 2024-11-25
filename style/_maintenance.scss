@@ -1,0 +1,64 @@
+.maintenance {
+	padding-inline: 256px;
+
+	&__chars {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		min-height: 100vh;
+
+		padding-block: 4rem;
+
+		&-title {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			color: #ffffff;
+
+			text-align: center;
+
+			padding-block: 2rem;
+			padding-bottom: 4rem;
+
+			h1 {
+				font-size: 30px;
+				margin-bottom: 0.5rem;
+			}
+
+			p {
+				font-size: 20px;
+			}
+		}
+
+		&-tables {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+
+			a {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+	&__screens {
+		display: grid;
+		place-items: center;
+
+		margin-bottom: 4rem;
+		
+		&-screen {
+			img {
+				padding-block: 0.5rem;
+				width: 100%;
+			}
+		}
+	}
+}
