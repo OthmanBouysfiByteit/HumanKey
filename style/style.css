@@ -1016,7 +1016,7 @@ textarea {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("/images/bg_modules.png");
+  background-image: url("../images/bg_modules.png");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: top center;
@@ -2943,7 +2943,7 @@ textarea {
   justify-content: center;
   color: #ffffff;
   margin-block: 8rem;
-  padding-inline: 256px;
+  padding-inline: 15%;
 }
 .synthesis h1 {
   font-size: 36px;
